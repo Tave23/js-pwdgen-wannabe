@@ -11,7 +11,7 @@ const prefColor = prompt('Qual è il tuo colore preferito?');
 document.getElementById("Passwordgenerata").innerHTML =
 `
    <h1>
-      Password generata : ${firstname}${surname}${prefColor}21
+       Password generata : ${firstname}${surname}${prefColor}21
    </h1>
 `;
 
