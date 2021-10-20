@@ -8,11 +8,19 @@ const firstname = prompt ('Qual è il tuo nome?')
 const surname = prompt('Qual è il tuo cognome?');
 const prefColor = prompt('Qual è il tuo colore preferito?');
 
-document.getElementById("Passwordgenerata").innerHTML =
+// let password = firstname + surname + prefColor + 21;
+let password = `${firstname}${surname}${prefColor}21`;
+
+document.getElementById("passwordgenerata").innerHTML =
 `
    <h1>
-       Password generata : ${firstname}${surname}${prefColor}21
+      Password generata : ${password}
    </h1>
+
+   <p>
+      Lunghezza password : ${password.length}
+   </p>
+   
 `;
 
 
